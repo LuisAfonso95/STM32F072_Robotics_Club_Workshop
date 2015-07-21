@@ -1,0 +1,283 @@
+###############################################################################
+#
+# IAR ELF Linker V7.40.3.8902/W32 for ARM                 21/Jul/2015  03:09:00
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\ST\Workspaces - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Exe\Project.out
+#    Map file     =  
+#        D:\ST\Workspaces - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\List\Project.map
+#    Command line =  
+#        "D:\ST\Workspaces - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\main.o" "D:\ST\Workspaces - F0\F072
+#        - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\startup_stm32f072.o"
+#        "D:\ST\Workspaces - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\stm32f0xx_adc.o" "D:\ST\Workspaces
+#        - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\stm32f0xx_cec.o" "D:\ST\Workspaces
+#        - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\stm32f0xx_comp.o" "D:\ST\Workspaces
+#        - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\stm32f0xx_crc.o" "D:\ST\Workspaces
+#        - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\stm32f0xx_dac.o" "D:\ST\Workspaces
+#        - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\stm32f0xx_dbgmcu.o"
+#        "D:\ST\Workspaces - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\stm32f0xx_dma.o" "D:\ST\Workspaces
+#        - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\stm32f0xx_exti.o" "D:\ST\Workspaces
+#        - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\stm32f0xx_flash.o"
+#        "D:\ST\Workspaces - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\stm32f0xx_gpio.o" "D:\ST\Workspaces
+#        - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\stm32f0xx_i2c.o" "D:\ST\Workspaces
+#        - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\stm32f0xx_it.o" "D:\ST\Workspaces -
+#        F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\stm32f0xx_iwdg.o" "D:\ST\Workspaces
+#        - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\stm32f0xx_misc.o" "D:\ST\Workspaces
+#        - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\stm32f0xx_pwr.o" "D:\ST\Workspaces
+#        - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\stm32f0xx_rcc.o" "D:\ST\Workspaces
+#        - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\stm32f0xx_rtc.o" "D:\ST\Workspaces
+#        - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\stm32f0xx_spi.o" "D:\ST\Workspaces
+#        - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\stm32f0xx_syscfg.o"
+#        "D:\ST\Workspaces - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\stm32f0xx_tim.o" "D:\ST\Workspaces
+#        - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\stm32f0xx_usart.o"
+#        "D:\ST\Workspaces - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\stm32f0xx_wwdg.o" "D:\ST\Workspaces
+#        - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Obj\system_stm32f0xx.o" --redirect
+#        _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall -o
+#        "D:\ST\Workspaces - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\Exe\Project.out" --map
+#        "D:\ST\Workspaces - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\STM32F051\List\Project.map" --config
+#        "D:\ST\Workspaces - F0\F072 - Club Workshop\Ex1 -
+#        GPIO_LEDToggle\EWARM\stm32f051_flash.icf" --semihosting --entry
+#        __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0800ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20001fff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address   Size  Object
+  -------            ----        -------   ----  ------
+"A1":                                      0xc0
+  .intvec            ro code  0x08000000   0xc0  startup_stm32f072.o [1]
+                            - 0x080000c0   0xc0
+
+"P1":                                     0x5d0
+  .text              ro code  0x080000c0  0x16c  main.o [1]
+  .text              ro code  0x0800022c   0x24  stm32f0xx_rcc.o [1]
+  .text              ro code  0x08000250   0xd0  stm32f0xx_gpio.o [1]
+  .text              ro code  0x08000320   0xae  I32DivModFast.o [4]
+  .text              ro code  0x080003ce    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x080003d0    0x2  IntDivZer.o [4]
+  .text              ro code  0x080003d2    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x080003d4  0x160  system_stm32f0xx.o [1]
+  .text              ro code  0x08000534   0x3c  startup_stm32f072.o [1]
+  .text              ro code  0x08000570   0x30  copy_init3.o [4]
+  .text              ro code  0x080005a0   0x28  data_init.o [4]
+  .iar.init_table    const    0x080005c8   0x14  - Linker created -
+  .text              ro code  0x080005dc   0x1c  stm32f0xx_it.o [1]
+  .text              ro code  0x080005f8   0x1a  cmain.o [4]
+  .text              ro code  0x08000612    0x4  low_level_init.o [3]
+  .text              ro code  0x08000616    0x8  exit.o [3]
+  .text              ro code  0x0800061e    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08000620    0xa  cexit.o [4]
+  .text              ro code  0x0800062a    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x0800062c   0x14  exit.o [5]
+  .text              ro code  0x08000640    0xc  cstartup_M.o [4]
+  .text              ro code  0x0800064c    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x0800064e    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08000650    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08000652    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08000654    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08000656    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08000658    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x0800065a    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x0800065c    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x0800065e    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08000660    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08000662    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08000664    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08000666    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08000668    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x0800066a    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x0800066c    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x0800066e    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08000670    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08000672    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08000674    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08000676    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08000678    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x0800067a    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x0800067c    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x0800067e    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08000680    0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08000682    0x2  startup_stm32f072.o [1]
+  .rodata            const    0x08000684    0x0  copy_init3.o [4]
+  Initializer bytes  const    0x08000684    0xc  <for P2 s0>
+                            - 0x08000690  0x5d0
+
+"P2":                                     0x410
+  P2 s0                       0x20000000    0xc  <Init block>
+    .data            inited   0x20000000    0x4  main.o [1]
+    .data            inited   0x20000004    0x4  system_stm32f0xx.o [1]
+    .bss             inited   0x20000008    0x4  main.o [1]
+  CSTACK                      0x20000010  0x400  <Block>
+    CSTACK           uninit   0x20000010  0x400  <Block tail>
+                            - 0x20000410  0x410
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0xc:
+          0x08000684   0xc
+    1 destination range, total size 0xc:
+          0x20000000   0xc
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+D:\ST\Workspaces - F0\F072 - Club Workshop\Ex1 - GPIO_LEDToggle\EWARM\STM32F051\Obj: [1]
+    main.o                   364        8        8
+    startup_stm32f072.o      316
+    stm32f0xx_gpio.o         208
+    stm32f0xx_it.o            28
+    stm32f0xx_rcc.o           36
+    system_stm32f0xx.o       352        4        4
+    ----------------------------------------------
+    Total:                 1 304       12       12
+
+command line: [2]
+    ----------------------------------------------
+    Total:
+
+dl6M_tln.a: [3]
+    exit.o                     8
+    low_level_init.o           4
+    ----------------------------------------------
+    Total:                    12
+
+rt6M_tl.a: [4]
+    I32DivModFast.o          174
+    IntDivZer.o                2
+    cexit.o                   10
+    cmain.o                   26
+    copy_init3.o              48
+    cstartup_M.o              12
+    data_init.o               40
+    ----------------------------------------------
+    Total:                   312
+
+shb_l.a: [5]
+    exit.o                    20
+    ----------------------------------------------
+    Total:                    20
+
+    Linker created                     20    1 024
+--------------------------------------------------
+    Grand Total:           1 648       32    1 036
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address  Size  Type      Object
+-----                      -------  ----  ----      ------
+.iar.init_table$$Base   0x080005c8         --   Gb  - Linker created -
+.iar.init_table$$Limit  0x080005dc         --   Gb  - Linker created -
+?main                   0x080005f9        Code  Gb  cmain.o [4]
+CSTACK$$Base            0x20000010         --   Gb  - Linker created -
+CSTACK$$Limit           0x20000410         --   Gb  - Linker created -
+Delay                   0x080001df  0x14  Code  Gb  main.o [1]
+GPIO_Init               0x08000251  0xbe  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_WriteBit           0x0800030f  0x12  Code  Gb  stm32f0xx_gpio.o [1]
+HardFault_Handler       0x080005df   0x4  Code  Gb  stm32f0xx_it.o [1]
+Millis                  0x20000008   0x4  Data  Gb  main.o [1]
+NMI_Handler             0x080005dd   0x2  Code  Gb  stm32f0xx_it.o [1]
+NVIC_SetPriority        0x080000c1  0x8a  Code  Lc  main.o [1]
+PendSV_Handler          0x080005e5   0x2  Code  Gb  stm32f0xx_it.o [1]
+RCC_AHBPeriphClockCmd   0x0800022d  0x20  Code  Gb  stm32f0xx_rcc.o [1]
+Region$$Table$$Base     0x080005c8         --   Gb  - Linker created -
+Region$$Table$$Limit    0x080005dc         --   Gb  - Linker created -
+SVC_Handler             0x080005e3   0x2  Code  Gb  stm32f0xx_it.o [1]
+SetSysClock             0x08000443  0xbe  Code  Lc  system_stm32f0xx.o [1]
+SysTick_Config          0x0800014b  0x32  Code  Lc  main.o [1]
+SysTick_Handler         0x080005e7   0xc  Code  Gb  stm32f0xx_it.o [1]
+SystemCoreClock         0x20000004   0x4  Data  Gb  system_stm32f0xx.o [1]
+SystemInit              0x080003d5  0x6e  Code  Gb  system_stm32f0xx.o [1]
+SystickConfigure        0x080001f3  0x1a  Code  Gb  main.o [1]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x20001fff         --   Gb  command line/config [2]
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x20000000         --   Gb  command line/config [2]
+__aeabi_idiv0           0x080003d1        Code  Gb  IntDivZer.o [4]
+__aeabi_uidiv           0x08000321        Code  Gb  I32DivModFast.o [4]
+__aeabi_uidivmod        0x08000321        Code  Gb  I32DivModFast.o [4]
+__cmain                 0x080005f9        Code  Gb  cmain.o [4]
+__exit                  0x0800062d  0x14  Code  Gb  exit.o [5]
+__iar_copy_init3        0x08000571  0x30  Code  Gb  copy_init3.o [4]
+__iar_data_init3        0x080005a1  0x28  Code  Gb  data_init.o [4]
+__iar_program_start     0x08000641        Code  Gb  cstartup_M.o [4]
+__low_level_init        0x08000613   0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000        Data  Gb  startup_stm32f072.o [1]
+_call_main              0x08000605        Code  Gb  cmain.o [4]
+_exit                   0x08000621        Code  Gb  cexit.o [4]
+_main                   0x0800060f        Code  Gb  cmain.o [4]
+exit                    0x08000617   0x8  Code  Gb  exit.o [3]
+main                    0x0800017d  0x62  Code  Gb  main.o [1]
+time_delay              0x20000000   0x4  Data  Gb  main.o [1]
+
+
+[1] = D:\ST\Workspaces - F0\F072 - Club Workshop\Ex1 - GPIO_LEDToggle\EWARM\STM32F051\Obj
+[2] = command line
+[3] = dl6M_tln.a
+[4] = rt6M_tl.a
+[5] = shb_l.a
+
+  1 648 bytes of readonly  code memory
+     32 bytes of readonly  data memory
+  1 036 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
