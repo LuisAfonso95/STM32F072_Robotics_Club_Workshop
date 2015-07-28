@@ -75,22 +75,23 @@ int main(void)
   GPIO_Init(GPIOA, &GPIO_InitStructure);
   
   
-  /* GPIOC Periph clock enable 
-      Rememember always to enable the clock
+  /*
+    Button pin configuration.
+    Complete it yourself to see if you understood the previous example.1
   */
-  RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOC, ENABLE); 
+  RCC_AHBPeriphClockCmd(_______, ENABLE); //Enable the clock for GPIO module
   
-  /* Configure PC13 in input mode with pull up */
-  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_13;
-  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN; // <- Notice, now it's an input
-  GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
-  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-  GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP; // <- Pull-up is needed for the button!
-  GPIO_Init(GPIOC, &GPIO_InitStructure);
+  /* Configure button pin in input mode with pull up */
+  GPIO_InitStructure.GPIO_Pin = _______;//which pin?
+  GPIO_InitStructure.GPIO_Mode = _______; // Set as input
+  GPIO_InitStructure.GPIO_OType = GPIO_OType_PP; // doesn't really matter
+  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz; //Just set to the maximum
+  GPIO_InitStructure.GPIO_PuPd = _______; // Set to have a pull-up
+  GPIO_Init(_______, &GPIO_InitStructure); //What GPIO module is it?
   
-  //Set the LED to 0 (turn off the LED) and set the LED_State to the LED state.
-  GPIO_WriteBit(GPIOA,GPIO_Pin_5,Bit_RESET);
-  LED_State = Bit_RESET;
+  //Turn off the LED while waiting for the first button press
+  LED_State = 0;
+  GPIO_WriteBit(GPIOA,GPIO_Pin_5,LED_State);
   
   
   /* Infinite loop */
